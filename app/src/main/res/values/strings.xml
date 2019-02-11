@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Shopping List</string>
+    <string name="eggs">Eggs</string>
+    <string name="cheese">Cheese</string>
+    <string name="rice">Rice</string>
+    <string name="juice">Juice</string>
+    <string name="hotsauce">Hot Sauce</string>
+    <string name="cake">Cake</string>
+    <string name="mochi">Mochi</string>
+    <string name="butter">Butter</string>
+    <string name="mango">Mango</string>
+    <string name="add_item">Add Item</string>
 </resources>
