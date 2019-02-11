@@ -10,4 +10,5 @@
     <string name="butter">Butter</string>
     <string name="mango">Mango</string>
     <string name="add_item">Add Item</string>
+    <string name="shopping_items">ShoppingItems</string>
 </resources>
