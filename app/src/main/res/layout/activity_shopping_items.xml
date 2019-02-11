@@ -5,5 +5,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ShoppingItems">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+    <Button
+        android:id="@+id/button_eggs"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectItem"
+        android:text="@string/eggs" />
 
+    <Button
+        android:id="@+id/button_flour"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="Flour" />
+
+    <Button
+        android:id="@+id/button_cheese"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/cheese" />
+
+    <Button
+        android:id="@+id/button_rice"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/rice" />
+
+    <Button
+        android:id="@+id/button_juice"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/juice" />
+
+    <Button
+        android:id="@+id/button_hotsauce"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/hotsauce" />
+
+    <Button
+        android:id="@+id/button_cake"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/cake"/>
+
+    <Button
+        android:id="@+id/button_mochi"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/mochi"/>
+
+    <Button
+        android:id="@+id/button_butter"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/butter"/>
+
+    <Button
+        android:id="@+id/button_mango"
+        style="@android:style/Widget.Material.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="selectItem"
+        android:text="@string/mango"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="189dp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
